@@ -1,0 +1,18 @@
+.background-1 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    background: rgb(244, 244, 244);
+}
+
+.comp-title {
+    font-family: futura-pt,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #1E1E1E;
+    font-size: 100px;
+    margin: 20px 40px;
+    display: flex;
+}

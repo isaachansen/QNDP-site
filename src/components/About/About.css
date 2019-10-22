@@ -1,0 +1,17 @@
+.background-2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    background: #1E1E1E;
+}
+
+.abt-us {
+    font-family: futura-pt,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(244, 244, 244);
+    font-size: 100px;
+    margin: 20px 40px;
+    display: flex;
+}
