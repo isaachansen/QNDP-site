@@ -13,12 +13,17 @@
     justify-content: center;
 }
 
-.logo {
-font-family: futura-pt-bold,sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 300px;
-color: #1E1E1E;
+/* .logo {
+    font-family: futura-pt-bold,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 300px;
+    color: #1E1E1E;
+} */
+
+.qndplogo {
+    max-width: 1000px;
+    max-height: auto;
 }
 
 .btn {
