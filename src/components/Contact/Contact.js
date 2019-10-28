@@ -5,14 +5,12 @@ export default class Contact extends Component {
   render() {
     return (
       <div className="background-2">
-        <div className="box-text">
           <h2 className="cont-text">CONTACT</h2>
-        </div>
-        <div className="input-holder">
-          <input placeholder="NAME" />
-          <input placeholder="EMAIL" />
-          <input placeholder="MESSAGE" />
-        </div>
+          <div className="form-area">
+          <input className="name" placeholder="NAME" />
+          <input className="email" placeholder="EMAIL" />
+          <textarea rows="5" cols="25" className="message" placeholder="MESSAGE" />
+          </div>
       </div>
     );
   }

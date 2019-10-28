@@ -1,14 +1,9 @@
 .background-2 {
     width: 100vw;
     height: 100vh;
-    display: flex;
-    align-content: center;
     background: #1E1E1E;
 }
 
-.box-text {
-    display: flex;
-}
 
 .cont-text {
     font-family: futura-pt,sans-serif;
@@ -16,18 +11,40 @@
     font-style: normal;
     color: rgb(244, 244, 244);
     font-size: 100px;
-    margin: 20px 40px;
+    padding: 20px 40px;
+    text-decoration: underline;
+}
+
+
+
+input {
+    padding: 20px;
+    margin: 6px 0 4px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    color: #000;
+    font-family: futura-pt,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    line-height: normal;
+    box-sizing: border-box;
+    border-radius: 1px;
+    outline: none;
     display: flex;
 }
 
-/* .input-holder {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-} */
+.name {
+    width: 700px;
+}
 
-input {
-    width: 100%;
+.email {
+    width: 700px;
+}
+
+.message {
+    width: 1000px;
+    height: 300px;
     padding: 12px;
     margin: 6px 0 4px;
     border: 1px solid #ccc;
@@ -36,9 +53,16 @@ input {
     font-family: futura-pt,sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 15px;
+    font-size: 25px;
     line-height: normal;
     box-sizing: border-box;
     border-radius: 1px;
     outline: none;
+    display: flex;
+}
+
+.form-area {
+    position: relative;
+    left: 210px;
+    top: 70px;
 }
