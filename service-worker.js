@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/QNDP-site/precache-manifest.a66e4bf21d48abed553375deaaf53693.js"
+  "/QNDP-site/precache-manifest.aeb6eb103d0ff4905265c15c592220fa.js"
 );
 
 self.addEventListener('message', (event) => {
