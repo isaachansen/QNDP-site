@@ -60,9 +60,3 @@ input {
     outline: none;
     display: flex;
 }
-
-.form-area {
-    position: relative;
-    left: 210px;
-    top: 70px;
-}
